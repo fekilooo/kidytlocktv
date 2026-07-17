@@ -43,5 +43,7 @@
     <outline text="動物星球頻道Taiwan" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCypzlOdJyyOR2NhKv0o3zig" htmlUrl="https://www.youtube.com/channel/UCypzlOdJyyOR2NhKv0o3zig" />
     <outline text="VaniMani" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLbyJSPEe2lx3jY-G0CFR3g" htmlUrl="https://www.youtube.com/channel/UCLbyJSPEe2lx3jY-G0CFR3g" />
     <outline text="Bass Fishing Productions 中文版" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6lTdDSrfExXqyrQAUVK1dA" htmlUrl="https://www.youtube.com/channel/UC6lTdDSrfExXqyrQAUVK1dA" />
+    <outline text="國家地理 National Geographic TW" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCzuH3UncFcXOKrz4XOYARTw" htmlUrl="https://www.youtube.com/channel/UCzuH3UncFcXOKrz4XOYARTw" />
+    <outline text="momokids親子台" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbHD6HX38bufVR1pF076Z0g" htmlUrl="https://www.youtube.com/channel/UCbHD6HX38bufVR1pF076Z0g" />
 </body>
 </opml>
