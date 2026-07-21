@@ -4,59 +4,61 @@
     <title>SkyTube Subscriptions Export</title>
   </head>
   <body>
-    <outline text="Cartoon Network India" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClUsCEaF7EkbNFLBOwjCK8w" htmlUrl="https://www.youtube.com/channel/UClUsCEaF7EkbNFLBOwjCK8w" />
-    <outline text="Dacheng's toys [Official channel]" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvnDBlpxR1IKvOMUDMGXPaA" htmlUrl="https://www.youtube.com/channel/UCvnDBlpxR1IKvOMUDMGXPaA" />
-    <outline text="Disney Jr. " type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNcdbMyA59zE-Vk668bKWOg" htmlUrl="https://www.youtube.com/channel/UCNcdbMyA59zE-Vk668bKWOg" />
-    <outline text="Duckbill The Animal Detective" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-E0qoKfGHVytxVDkImsjhA" htmlUrl="https://www.youtube.com/channel/UC-E0qoKfGHVytxVDkImsjhA" />
-    <outline text="GO GO DINO Chinese" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBrhdbS02j3tlJIFttEMZ5Q" htmlUrl="https://www.youtube.com/channel/UCBrhdbS02j3tlJIFttEMZ5Q" />
+    <outline text="XiaoLin 小霖" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUjNqzZXG6oghw8QAEJr1FA" htmlUrl="https://www.youtube.com/channel/UCUjNqzZXG6oghw8QAEJr1FA" />
     <outline text="Mama Laoshi 媽媽老師 " type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCROBdlnm4PpjnjfPPyAykWg" htmlUrl="https://www.youtube.com/channel/UCROBdlnm4PpjnjfPPyAykWg" />
+    <outline text="你現在收看的是RED" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqt2wXDIAih8_OC4rOgMSyA" htmlUrl="https://www.youtube.com/channel/UCqt2wXDIAih8_OC4rOgMSyA" />
+    <outline text="玩不累妈妈" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPWiB8Ql_Xg5pT4sEYmR1BA" htmlUrl="https://www.youtube.com/channel/UCPWiB8Ql_Xg5pT4sEYmR1BA" />
     <outline text="Muse木棉花-TW" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCgdwtyqBunlRb-i-7PnCssQ" htmlUrl="https://www.youtube.com/channel/UCgdwtyqBunlRb-i-7PnCssQ" />
     <outline text="Muse木棉花-闔家歡" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCPYSMEnbeepGM7RU6qxyUA" htmlUrl="https://www.youtube.com/channel/UCCPYSMEnbeepGM7RU6qxyUA" />
-    <outline text="Warner Bros. Classics" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU0rIMU3k_AsVA8d6N1B03w" htmlUrl="https://www.youtube.com/channel/UCU0rIMU3k_AsVA8d6N1B03w" />
-    <outline text="WB Kids" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9trsD1jCTXXtN3xIOIU8gg" htmlUrl="https://www.youtube.com/channel/UC9trsD1jCTXXtN3xIOIU8gg" />
-    <outline text="WB Kids Français" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqvIdlrnd4DCcqp2DZwaZYw" htmlUrl="https://www.youtube.com/channel/UCqvIdlrnd4DCcqp2DZwaZYw" />
-    <outline text="XiaoLin 小霖" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUjNqzZXG6oghw8QAEJr1FA" htmlUrl="https://www.youtube.com/channel/UCUjNqzZXG6oghw8QAEJr1FA" />
-    <outline text="YOYO超級總動員" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCejURIasUGOM0qrjKMG7pXA" htmlUrl="https://www.youtube.com/channel/UCejURIasUGOM0qrjKMG7pXA" />
-    <outline text="你現在收看的是RED" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqt2wXDIAih8_OC4rOgMSyA" htmlUrl="https://www.youtube.com/channel/UCqt2wXDIAih8_OC4rOgMSyA" />
-    <outline text="台灣地震監視" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa32OtZqhDqDqCHeWO477qg" htmlUrl="https://www.youtube.com/channel/UCa32OtZqhDqDqCHeWO477qg" />
-    <outline text="安全警長啦咘啦哆-兒童動畫" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBzQ6B0Oxm0a_bNi-KPJLqw" htmlUrl="https://www.youtube.com/channel/UCBzQ6B0Oxm0a_bNi-KPJLqw" />
-    <outline text="寶可夢 官方" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUsB9KTwSGgPlIARzdaKb_Q" htmlUrl="https://www.youtube.com/channel/UCUsB9KTwSGgPlIARzdaKb_Q" />
+    <outline text="Duckbill The Animal Detective" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-E0qoKfGHVytxVDkImsjhA" htmlUrl="https://www.youtube.com/channel/UC-E0qoKfGHVytxVDkImsjhA" />
     <outline text="小公交車太友 小巴士TAYO Chinese" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6vEpFeTdWEpPJBrk2V1d4A" htmlUrl="https://www.youtube.com/channel/UC6vEpFeTdWEpPJBrk2V1d4A" />
-    <outline text="曼迪Mighty TV動畫頻道" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCrpNwDnc_ULP3tjUQsCkag" htmlUrl="https://www.youtube.com/channel/UCCrpNwDnc_ULP3tjUQsCkag" />
     <outline text="樂樂 TV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtWocEKhgpEffPDlwwozK9Q" htmlUrl="https://www.youtube.com/channel/UCtWocEKhgpEffPDlwwozK9Q" />
-    <outline text="玩不累妈妈" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPWiB8Ql_Xg5pT4sEYmR1BA" htmlUrl="https://www.youtube.com/channel/UCPWiB8Ql_Xg5pT4sEYmR1BA" />
+    <outline text="寶可夢 官方" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUsB9KTwSGgPlIARzdaKb_Q" htmlUrl="https://www.youtube.com/channel/UCUsB9KTwSGgPlIARzdaKb_Q" />
+    <outline text="GO GO DINO Chinese" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBrhdbS02j3tlJIFttEMZ5Q" htmlUrl="https://www.youtube.com/channel/UCBrhdbS02j3tlJIFttEMZ5Q" />
+    <outline text="安全警長啦咘啦哆-兒童動畫" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBzQ6B0Oxm0a_bNi-KPJLqw" htmlUrl="https://www.youtube.com/channel/UCBzQ6B0Oxm0a_bNi-KPJLqw" />
     <outline text="碰碰狐 鯊魚寶寶 (兒童兒歌・故事)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrLO-yoAu4ZTzRSdmWqS53A" htmlUrl="https://www.youtube.com/channel/UCrLO-yoAu4ZTzRSdmWqS53A" />
+    <outline text="WB Kids" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9trsD1jCTXXtN3xIOIU8gg" htmlUrl="https://www.youtube.com/channel/UC9trsD1jCTXXtN3xIOIU8gg" />
+    <outline text="Disney Jr. " type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNcdbMyA59zE-Vk668bKWOg" htmlUrl="https://www.youtube.com/channel/UCNcdbMyA59zE-Vk668bKWOg" />
+    <outline text="台灣地震監視" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCa32OtZqhDqDqCHeWO477qg" htmlUrl="https://www.youtube.com/channel/UCa32OtZqhDqDqCHeWO477qg" />
     <outline text="綜藝玩很大 Mr.Player" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQU5uVTG8h9LToACKrm1LMA" htmlUrl="https://www.youtube.com/channel/UCQU5uVTG8h9LToACKrm1LMA" />
+    <outline text="曼迪Mighty TV動畫頻道" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCrpNwDnc_ULP3tjUQsCkag" htmlUrl="https://www.youtube.com/channel/UCCrpNwDnc_ULP3tjUQsCkag" />
+    <outline text="YOYO超級總動員" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCejURIasUGOM0qrjKMG7pXA" htmlUrl="https://www.youtube.com/channel/UCejURIasUGOM0qrjKMG7pXA" />
+    <outline text="Warner Bros. Classics" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCU0rIMU3k_AsVA8d6N1B03w" htmlUrl="https://www.youtube.com/channel/UCU0rIMU3k_AsVA8d6N1B03w" />
+    <outline text="Cartoon Network India" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClUsCEaF7EkbNFLBOwjCK8w" htmlUrl="https://www.youtube.com/channel/UClUsCEaF7EkbNFLBOwjCK8w" />
+    <outline text="WB Kids Français" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCqvIdlrnd4DCcqp2DZwaZYw" htmlUrl="https://www.youtube.com/channel/UCqvIdlrnd4DCcqp2DZwaZYw" />
+    <outline text="Dacheng&apos;s toys [Official channel]" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvnDBlpxR1IKvOMUDMGXPaA" htmlUrl="https://www.youtube.com/channel/UCvnDBlpxR1IKvOMUDMGXPaA" />
     <outline text="Muse木棉花-超級英雄" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBj27FrkgEbYVif-ZAPnsGA" htmlUrl="https://www.youtube.com/channel/UCBj27FrkgEbYVif-ZAPnsGA" />
     <outline text="Pencilmation" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUAL--p3qAa27luR0IYbjZA" htmlUrl="https://www.youtube.com/channel/UCUAL--p3qAa27luR0IYbjZA" />
-    <outline text="小猪佩奇 中文官方" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRi0sw4PDw-C2C7fS9hrx5Q" htmlUrl="https://www.youtube.com/channel/UCRi0sw4PDw-C2C7fS9hrx5Q" />
+    <outline text="小猪佩奇 中文官方 - Peppa Pig" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRi0sw4PDw-C2C7fS9hrx5Q" htmlUrl="https://www.youtube.com/channel/UCRi0sw4PDw-C2C7fS9hrx5Q" />
     <outline text="巧虎TV（台灣巧連智官方頻道）" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCnjadOj5qlKXsTAXPSwc67A" htmlUrl="https://www.youtube.com/channel/UCnjadOj5qlKXsTAXPSwc67A" />
+    <outline text="哎呀小米蕉" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwwvrA7ymPWQkMX5BuX9Diw" htmlUrl="https://www.youtube.com/channel/UCwwvrA7ymPWQkMX5BuX9Diw" />
+    <outline text="大蛇丸" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQd3V4gv_lcLX9SpIVW3wmw" htmlUrl="https://www.youtube.com/channel/UCQd3V4gv_lcLX9SpIVW3wmw" />
+    <outline text="CTBC Brothers Official Channel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMNRAapvcYtQks_QmfiTGkA" htmlUrl="https://www.youtube.com/channel/UCMNRAapvcYtQks_QmfiTGkA" />
     <outline text="昆蟲擾西吳沁婕Dee the bugbuff" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuxxVUm7UN0lb1OOY8Ex4mg" htmlUrl="https://www.youtube.com/channel/UCuxxVUm7UN0lb1OOY8Ex4mg" />
-    <outline text="NyoNyoTV妞妞TV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWGGwv7agoMmd3BAu4Fv3jQ" htmlUrl="https://www.youtube.com/channel/UCWGGwv7agoMmd3BAu4Fv3jQ" />
+    <outline text="NyoNyoTV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWGGwv7agoMmd3BAu4Fv3jQ" htmlUrl="https://www.youtube.com/channel/UCWGGwv7agoMmd3BAu4Fv3jQ" />
     <outline text="Alphablocks" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_qs3c0ehDvZkbiEbOj6Drg" htmlUrl="https://www.youtube.com/channel/UC_qs3c0ehDvZkbiEbOj6Drg" />
     <outline text="未來親子TV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLbYagPqVZbr1aoAU5DV4KQ" htmlUrl="https://www.youtube.com/channel/UCLbYagPqVZbr1aoAU5DV4KQ" />
-    <outline text="LIS 情境科學教材" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEjSMfRDks28MYaJ4iPkQMQ" htmlUrl="https://www.youtube.com/channel/UCEjSMfRDks28MYaJ4iPkQMQ" />
+    <outline text="LIS-science fun" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEjSMfRDks28MYaJ4iPkQMQ" htmlUrl="https://www.youtube.com/channel/UCEjSMfRDks28MYaJ4iPkQMQ" />
     <outline text="FOOD MAN TV - FOOD超人兒童頻道" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCFTdYW2tkMTm09VpkFj3hkA" htmlUrl="https://www.youtube.com/channel/UCFTdYW2tkMTm09VpkFj3hkA" />
-    <outline text="寶寶巴士" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCttafJi4SCirZhlxsxISbyA" htmlUrl="https://www.youtube.com/channel/UCttafJi4SCirZhlxsxISbyA" />
-    <outline text="臺灣吧 Taiwan Bar" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRNsHFT7BFoAPBcuAa5sgEQ" htmlUrl="https://www.youtube.com/channel/UCRNsHFT7BFoAPBcuAa5sgEQ" />
+    <outline text="寶寶巴士 - 中文兒歌童謠 - 卡通動畫" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCttafJi4SCirZhlxsxISbyA" htmlUrl="https://www.youtube.com/channel/UCttafJi4SCirZhlxsxISbyA" />
+    <outline text="Taiwan Bar" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRNsHFT7BFoAPBcuAa5sgEQ" htmlUrl="https://www.youtube.com/channel/UCRNsHFT7BFoAPBcuAa5sgEQ" />
     <outline text="小公視" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUK0qeXwXSu_sZukMo-gwpw" htmlUrl="https://www.youtube.com/channel/UCUK0qeXwXSu_sZukMo-gwpw" />
-    <outline text="動物星球頻道Taiwan" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCypzlOdJyyOR2NhKv0o3zig" htmlUrl="https://www.youtube.com/channel/UCypzlOdJyyOR2NhKv0o3zig" />
+    <outline text="動物星球頻道/ Animal Planet Taiwan" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCypzlOdJyyOR2NhKv0o3zig" htmlUrl="https://www.youtube.com/channel/UCypzlOdJyyOR2NhKv0o3zig" />
     <outline text="VaniMani" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCLbyJSPEe2lx3jY-G0CFR3g" htmlUrl="https://www.youtube.com/channel/UCLbyJSPEe2lx3jY-G0CFR3g" />
     <outline text="Bass Fishing Productions 中文版" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6lTdDSrfExXqyrQAUVK1dA" htmlUrl="https://www.youtube.com/channel/UC6lTdDSrfExXqyrQAUVK1dA" />
     <outline text="國家地理 National Geographic TW" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCzuH3UncFcXOKrz4XOYARTw" htmlUrl="https://www.youtube.com/channel/UCzuH3UncFcXOKrz4XOYARTw" />
     <outline text="momokids親子台" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbHD6HX38bufVR1pF076Z0g" htmlUrl="https://www.youtube.com/channel/UCbHD6HX38bufVR1pF076Z0g" />
-    <outline text="樂樂TV" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtWocEKhgpEffPDlwwozK9Q" htmlUrl="https://www.youtube.com/channel/UCtWocEKhgpEffPDlwwozK9Q" />
     <outline text="大手小般SiaoBan" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDnTMa0QWahA_SDouB40ANQ" htmlUrl="https://www.youtube.com/channel/UCDnTMa0QWahA_SDouB40ANQ" />
     <outline text="R94阿爾宙斯頻道" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_jYUXmF9juRwEFokwBAC6Q" htmlUrl="https://www.youtube.com/channel/UC_jYUXmF9juRwEFokwBAC6Q" />
     <outline text="Squash Clay" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrIDehathksmgNEMwsLEpiQ" htmlUrl="https://www.youtube.com/channel/UCrIDehathksmgNEMwsLEpiQ" />
     <outline text="NendoZaiker-SNAIL" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeD6fwNWcEXkeKhc9fu4Iyw" htmlUrl="https://www.youtube.com/channel/UCeD6fwNWcEXkeKhc9fu4Iyw" />
     <outline text="Neil Lin Origami Tutorials摺紙教學" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHOM_nvXGOQ5Tj_H-aKuXIA" htmlUrl="https://www.youtube.com/channel/UCHOM_nvXGOQ5Tj_H-aKuXIA" />
-    <outline text="NendoZaiker-SNAIL" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeD6fwNWcEXkeKhc9fu4Iyw" htmlUrl="https://www.youtube.com/channel/UCeD6fwNWcEXkeKhc9fu4Iyw" />
     <outline text="趣.角落摺紙origami" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCu2aBpoktDAgy49CQgzeVEg" htmlUrl="https://www.youtube.com/channel/UCu2aBpoktDAgy49CQgzeVEg" />
     <outline text="Hello Origami" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8lnmTA5u9sfqbHtDeNClAQ" htmlUrl="https://www.youtube.com/channel/UC8lnmTA5u9sfqbHtDeNClAQ" />
     <outline text="Paper Kawaii - Origami Tutorials" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCA7kuhQGNIO4X2dizncyiPQ" htmlUrl="https://www.youtube.com/channel/UCA7kuhQGNIO4X2dizncyiPQ" />
     <outline text="粿兒摺紙 Gueler origami" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwao3WP31D3dSI9okYM-P4g" htmlUrl="https://www.youtube.com/channel/UCwao3WP31D3dSI9okYM-P4g" />
     <outline text="Origami Tutorial With YJ Hoffmann" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGIztUq6zdCE_z9P0YC-yrg" htmlUrl="https://www.youtube.com/channel/UCGIztUq6zdCE_z9P0YC-yrg" />
     <outline text="大原大次郎" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeJ3KfWHEMVPqEK8Lp4Yc_Q" htmlUrl="https://www.youtube.com/channel/UCeJ3KfWHEMVPqEK8Lp4Yc_Q" />
+    <outline text="Bili | 國語動漫" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=bili:5089070" htmlUrl="https://space.bilibili.com/5089070" />
 </body>
 </opml>
