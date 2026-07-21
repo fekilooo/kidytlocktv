@@ -1,0 +1,1 @@
+TV2: hold-to-talk voice search, optional blocker icon, and PIN-protected preferences.

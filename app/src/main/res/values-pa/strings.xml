@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="could_not_get_videos">%s ਵੀਡੀਓ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕੇ।</string>
+    <string name="could_not_get_channel">ਚੈਨਲ ਜਾਣਕਾਰੀ ਨੂੰ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।</string>
+    <string name="could_not_get_channel_detailed">ਚੈਨਲ ਜਾਣਕਾਰੀ ਨੂੰ ਡਾਊਨਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: %s।</string>
+    <string name="could_not_get_sponsorblock">ਸਪਾਂਸਰਬਲਾਕ ਜਾਣਕਾਰੀ ਨੂੰ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: %s।</string>
+    <string name="views">%,d ਵਿਯੂਜ਼</string>
+    <string name="error">ਤਰੁੱਟੀ</string>
+    <string name="close">ਬੰਦ ਕਰੋ</string>
+    <string name="ok">ਠੀਕ ਹੈ</string>
+    <string name="search_videos">ਵੀਡੀਓ ਖੋਜੋ</string>
+    <string name="launch_offical_player_error">ਅਧਿਕਾਰਤ YouTube ਪਲੇਅਰ ਨੂੰ ਲਾਂਚ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਇਹ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਹ ਸਥਾਪਿਤ ਹੈ।</string>
+    <string name="LIVE">ਲਾਈਵ</string>
+    <string name="featured">ਫੀਚਰਡ</string>
+    <string name="most_popular">ਸਭ ਤੋਂ ਮਸ਼ਹੂਰ</string>
+    <string name="trending_in">ਪ੍ਰਚਲਿਤ (%s)</string>
+    <string name="video">ਵੀਡੀਓ</string>
+    <string name="videos">ਵੀਡੀਓਜ਼</string>
+    <string name="num_videos">%d ਵੀਡੀਓ</string>
+    <string name="playlists">ਪਲੇਲਿਸਟਾਂ</string>
+    <string name="could_not_get_playlists">%s ਪਲੇਲਿਸਟਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕੀਆਂ।</string>
+    <string name="recaptcha_challenge_requested">YouTube ਸੋਚਦਾ ਹੈ ਕਿ ਤੁਸੀਂ ਇੱਕ ਬੋਟ ਹੋ, ਇਸ ਲਈ ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਇੱਕ reCAPTCHA ਹੱਲ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।</string>
+    <string name="loading">ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ…</string>
+    <string name="no">ਨਹੀਂ</string>
+    <string name="yes">ਹਾਂ</string>
+    <string name="search_channel">ਚੈਨਲ ਖੋਜੋ</string>
+    <string name="cleaner_confirm">ਸਾਫ਼ ਕਰੋ</string>
+    <string name="cleaner_watched_downloads">ਵੇਖੇ ਡਾਊਨਲੋਡ ਹਟਾਓ</string>
+    <string name="cleaner">ਵੇਖਿਆ ਵੀਡੀਓ ਕਲੀਨਰ</string>
+    <string name="video_comments_are_disabled">ਵੀਡੀਓ ਟਿੱਪਣੀਆਂ ਬੰਦ ਹਨ</string>
+    <string name="cleaner_explanation">ਬੁੱਕਮਾਰਕ ਕੀਤੀਆਂ/ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਵੀਡੀਓਜ਼ ਨੂੰ ਸਾਫ਼ ਕਰੋ। ਹੇਠਾਂ ਦਿੱਤੇ ਫਿਲਟਰ ਵਿਕਲਪਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ:</string>
+    <string name="cleaner_watched_bookmarks">ਵੇਖੇ ਗਏ ਬੁੱਕਮਾਰਕ ਹਟਾਓ</string>
+    <string name="cleaner_toast_finish">ਅਸੀਂ ਬੁੱਕਮਾਰਕਾਂ ਤੋਂ %1$s ਵੀਡੀਓ ਹਟਾ ਦਿੱਤੀਆਂ ਹਨ, ਅਤੇ ਡਾਊਨਲੋਡ ਕੀਤੀਆਂ ਵੀਡੀਓਜ਼ ਵਿੱਚੋਂ %2$s MB ਨੂੰ ਮਿਟਾ ਦਿੱਤਾ ਹੈ।</string>
+    <string name="incorrect_pin">ਗਲਤ ਪਿੰਨ</string>
+</resources>

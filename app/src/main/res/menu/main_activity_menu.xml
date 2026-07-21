@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<!-- NOTE: Any changes made to this menu file should also be made to the Extra variant version.
+		The Extra variant version includes the Cast icon for casting to a Chromecast. -->
+
+	<item android:id="@+id/menu_search"
+		  android:title="@string/search_videos"
+		  android:icon="@drawable/ic_search"
+		  app:showAsAction="collapseActionView|ifRoom"
+		  app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+	<item
+		android:id="@+id/menu_refresh_videos"
+		android:title="@string/reload_video"
+		android:icon="@drawable/ic_menu_reload_video"
+		app:showAsAction="ifRoom" />
+
+	<item
+		android:id="@+id/menu_voice_search"
+		android:title="@string/voice_search_action"
+		android:icon="@drawable/ic_mic"
+		app:showAsAction="ifRoom" />
+
+	<item
+		android:id="@+id/menu_blocker"
+		android:title="@string/pref_video_blocker_category"
+		app:actionLayout="@layout/menu_action_item_badge"
+		app:showAsAction="ifRoom" />
+
+	<item android:id="@+id/menu_enter_video_url"
+		  android:title="@string/enter_video_url"
+		  app:showAsAction="never"/>
+
+	<item android:id="@+id/menu_clean_downloads"
+		android:title="@string/cleaner"
+		app:showAsAction="never"/>
+
+	<item android:id="@+id/menu_export_logs"
+		android:title="Export logs"
+		app:showAsAction="never"/>
+
+	<item android:id="@+id/menu_preferences"
+		  android:title="@string/preferences"
+		  app:showAsAction="never"/>
+
+</menu>

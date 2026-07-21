@@ -1,0 +1,1 @@
+Add a playlist-content fallback that loads items from PlaylistInfo when the playlist extractor returns metadata but an empty initial page.

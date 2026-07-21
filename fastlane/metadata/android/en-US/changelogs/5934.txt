@@ -1,0 +1,3 @@
+Replace the overlay subscription drawer with a true same-level two-pane layout.
+Keep the channel list permanently visible without intercepting main content controls.
+Prevent Back from hiding the permanent channel sidebar.

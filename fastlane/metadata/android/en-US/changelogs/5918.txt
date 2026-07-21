@@ -1,0 +1,1 @@
+Preserve original playlist URLs from channel tabs so playlist pages can load items through the full URL instead of only the normalized playlist id.

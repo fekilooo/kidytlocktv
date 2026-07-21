@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'free.rm.tvboxlaunchereditor'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'free.rm.tvboxlaunchereditor'
+        minSdk 21
+        targetSdk 28
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        disable 'ExpiredTargetSdkVersion'
+    }
+}

@@ -1,0 +1,1 @@
+Switch playlist page loading to PlaylistInfo-based paging so channel playlist tabs can bypass empty PlaylistExtractor pages.

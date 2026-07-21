@@ -1,0 +1,2 @@
+Auto-play the next video from the same channel when playback finishes.
+Apply the behavior to both built-in video players.

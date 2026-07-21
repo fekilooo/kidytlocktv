@@ -1,0 +1,3 @@
+Use a per-video Safari HLS high-resolution path with a stable Android combined-stream fallback.
+Avoid applying unreliable separated MWEB audio streams to ordinary videos.
+Reduce HLS retry time so failed high-resolution sources fall back quickly.

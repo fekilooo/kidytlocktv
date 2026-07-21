@@ -1,0 +1,1 @@
+Use iOS HLS manifests for high-resolution playback on Android 10 while retaining stable combined-stream fallback.

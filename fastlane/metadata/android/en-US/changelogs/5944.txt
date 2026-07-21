@@ -1,0 +1,1 @@
+Use NewPipe's 64 KiB progressive loading interval for visionOS YouTube streams.

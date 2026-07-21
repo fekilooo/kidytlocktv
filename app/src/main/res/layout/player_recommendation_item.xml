@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="250dp"
+	android:layout_height="wrap_content"
+	android:layout_marginEnd="14dp"
+	android:background="@drawable/tv_recommendation_item_background"
+	android:clickable="true"
+	android:focusable="true"
+	android:focusableInTouchMode="true"
+	android:orientation="vertical"
+	android:padding="5dp">
+
+	<ImageView
+		android:id="@+id/recommendationThumbnail"
+		android:layout_width="match_parent"
+		android:layout_height="112dp"
+		android:contentDescription="@string/player_recommendations"
+		android:scaleType="centerCrop" />
+
+	<TextView
+		android:id="@+id/recommendationTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ellipsize="end"
+		android:maxLines="2"
+		android:minLines="2"
+		android:paddingStart="4dp"
+		android:paddingTop="5dp"
+		android:paddingEnd="4dp"
+		android:textColor="@android:color/white"
+		android:textSize="15sp" />
+</LinearLayout>

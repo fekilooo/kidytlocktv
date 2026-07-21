@@ -1,0 +1,3 @@
+Show recommendations whenever ExoPlayer actually enters the paused state.
+Cancel end-of-video autoplay countdown as soon as TV directional navigation begins.
+Keep the recommendation row open until the user confirms a selection.

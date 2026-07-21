@@ -1,0 +1,3 @@
+Add Android 10-only MWEB high-resolution candidates to the stable extractor.
+Use finite URL ranges and HTTP/1.1 for MWEB video and audio playback.
+Fall back through HLS, high resolution, then the stable Android combined stream.

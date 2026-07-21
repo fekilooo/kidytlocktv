@@ -1,0 +1,1 @@
+Fix TV remote focus becoming stuck in the subscription sidebar after returning from video playback.

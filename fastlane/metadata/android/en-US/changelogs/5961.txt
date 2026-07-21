@@ -1,0 +1,2 @@
+Use NewPipe-style POST, request-number and finite-range requests for continuous iOS high-resolution playback.
+Retain the 12-second stable-stream fallback for videos that cannot start through the high-resolution path.

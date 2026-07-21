@@ -1,0 +1,1 @@
+Use standard iOS delivery for high-resolution video while sourcing audio from the stable Android combined stream.

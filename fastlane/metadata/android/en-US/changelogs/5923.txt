@@ -1,0 +1,1 @@
+Use separate high-resolution video and audio streams immediately for reliable 720p+ playback.

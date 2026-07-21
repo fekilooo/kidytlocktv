@@ -1,0 +1,1 @@
+Add a video blocker mode that only shows content from subscribed channels.

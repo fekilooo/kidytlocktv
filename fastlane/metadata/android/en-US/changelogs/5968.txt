@@ -1,0 +1,1 @@
+Keep the legacy player for normal videos and use an isolated SABR backend only when a high-resolution direct stream returns HTTP 403 or no matching direct stream is available.

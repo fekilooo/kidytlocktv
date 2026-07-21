@@ -1,0 +1,1 @@
+Hard-lock TV focus inside the home video grid until LEFT is pressed, while retaining continuous and varied trending recommendations.

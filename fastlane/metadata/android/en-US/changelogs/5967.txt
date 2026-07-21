@@ -1,0 +1,3 @@
+Add an Android 10 YouTube IFrame playback fallback for native high-resolution failures.
+Keep native playback as the default and return to its stable stream if the web player fails.
+Add a player menu action for direct IFrame comparison testing.

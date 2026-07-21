@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/cleaner_explanation"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/cleaner_explanation"
+		android:textColor="@color/dialog_content_text"
+		android:textDirection="firstStrong"
+		android:textIsSelectable="false"
+		android:textSize="16sp" />
+
+	<CheckBox
+		android:id="@+id/clean_watched_downloads"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:checked="true"
+		android:layout_marginTop="4dp"
+		android:minHeight="48dp"
+		android:textColor="@color/dialog_content_text"
+		android:text="@string/cleaner_watched_downloads"/>
+
+	<CheckBox
+		android:id="@+id/clean_watched_bookmarks"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:checked="true"
+		android:minHeight="48dp"
+		android:textColor="@color/dialog_content_text"
+		android:text="@string/cleaner_watched_bookmarks" />
+
+</LinearLayout>

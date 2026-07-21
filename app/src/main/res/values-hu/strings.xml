@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="could_not_get_videos">Nem lehet elérni a(z) %s videót.</string>
+    <string name="could_not_get_channel">Nem lehet letölteni a csatornainformációkat.</string>
+    <string name="could_not_get_channel_detailed">Nem lehet letölteni a csatornainformációkat: %s.</string>
+    <string name="views">%,d megtekintés</string>
+    <string name="error">Hiba</string>
+    <string name="ok">Rendben</string>
+    <string name="search_videos">Videók keresése</string>
+    <string name="launch_offical_player_error">Hiba történt a hivatalos YouTube lejátszó betöltésekor. Ellenőrizze, hogy telepítve van-e.</string>
+    <string name="LIVE">Élő</string>
+    <string name="featured">Kiemelt</string>
+    <string name="most_popular">Legnépszerűbb</string>
+    <string name="video">Videó</string>
+    <string name="videos">Videók</string>
+    <string name="num_videos">%d videó</string>
+    <string name="playlists">Lejátszási listák</string>
+    <string name="could_not_get_playlists">Nem lehet elérni a(z) %s lejátszási listát.</string>
+    <string name="loading">Betöltés…</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_channel">Csatornák keresése</string>
+    <string name="close">Bezárás</string>
+    <string name="trending_in">Felkapott (%s)</string>
+    <string name="recaptcha_challenge_requested">A YouTube azt hiszi, hogy ön egy Bot, ezért először meg kell oldania a reCAPTCHA feladatot.</string>
+    <string name="could_not_get_sponsorblock">Nem sikerült lekérni a szponzorblokk adatait: %s.</string>
+    <string name="cleaner">Megnézett videók tisztítása</string>
+    <string name="cleaner_confirm">Tisztít</string>
+    <string name="cleaner_watched_downloads">Megtekintett letöltések eltávolítása</string>
+    <string name="cleaner_watched_bookmarks">Megtekintett könyvjelzők eltávolítása</string>
+    <string name="cleaner_explanation">Tisztítsa meg a könyvjelzőzött/letöltött videókat. Használja a következő szűrőbeállításokat:</string>
+    <string name="cleaner_toast_finish">%1$s videó eltávolítva a könyvjelzők közül és %2$s MB letöltött videó törölve.</string>
+    <string name="video_comments_are_disabled">A hozzászólások a videóhoz nem engedélyezettek</string>
+    <string name="incorrect_pin">Helytelen PIN kód</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item android:id="@+id/media_route_menu_item"
+		  android:title="@string/media_route_menu_title"
+		  app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+		  app:showAsAction="always"/>
+
+	<item android:id="@+id/menu_reload_video"
+		  android:title="@string/reload_video"
+		  android:icon="@drawable/ic_menu_reload_video"
+		  app:showAsAction="ifRoom" />
+
+	<item android:id="@+id/menu_open_video_with"
+		  android:title="@string/open_with"
+		  app:showAsAction="never"/>
+
+	<item android:id="@+id/share"
+		  android:title="@string/share_via"
+		  app:showAsAction="never"/>
+
+	<item android:id="@+id/copyurl"
+		  android:title="@string/copy_url"
+		  app:showAsAction="never"/>
+
+	<item android:id="@+id/bookmark_video"
+		  android:title="@string/bookmark"
+		  app:showAsAction="never"/>
+
+	<item android:id="@+id/unbookmark_video"
+		  android:title="@string/unbookmark"
+		  app:showAsAction="never"/>
+
+	<item android:id="@+id/download_video"
+		android:title="@string/download"
+		app:showAsAction="never"/>
+
+	<item android:id="@+id/channel_related" android:title="@string/channel_related">
+		<menu>
+			<item android:id="@+id/open_channel"
+				android:visible="false"
+				android:title="@string/open_channel"/>
+			<item android:id="@+id/subscribe_channel"
+				android:visible="false"
+				android:title="@string/subscribe"/>
+			<item android:id="@+id/unsubscribe_channel"
+				android:visible="false"
+				android:title="@string/unsubscribe"/>
+			<item android:id="@+id/block_channel"
+				android:title="@string/block_channel"
+				app:showAsAction="never"/>
+			<item android:id="@+id/unblock_channel"
+				android:title="@string/add_to_permitted" />
+		</menu>
+	</item>
+
+	<item android:id="@+id/view_thumbnail"
+		android:title="@string/view_thumbnail"
+		app:showAsAction="never"/>
+
+	<item android:id="@+id/menu_bilibili_episodes"
+		android:title="@string/player_episodes"
+		android:visible="false"
+		app:showAsAction="never"/>
+
+	<item android:id="@+id/menu_bilibili_quality"
+		android:title="@string/bilibili_quality"
+		android:visible="false"
+		app:showAsAction="never"/>
+
+	<item android:id="@+id/menu_bilibili_codec"
+		android:title="@string/bilibili_codec"
+		android:visible="false"
+		app:showAsAction="never"/>
+
+	<item android:id="@+id/menu_bilibili_source"
+		android:title="@string/bilibili_source"
+		android:visible="false"
+		app:showAsAction="never"/>
+
+	<item
+		android:id="@+id/disable_gestures"
+		android:checkable="true"
+		android:title="@string/pref_title_disable_screen_gestures" />
+
+	<item
+		android:id="@+id/video_repeat_toggle"
+		android:checkable="true"
+		android:title="@string/pref_video_continuous_repeat_toggle"
+		app:showAsAction="never" />
+
+</menu>

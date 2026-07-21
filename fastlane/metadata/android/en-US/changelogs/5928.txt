@@ -1,0 +1,3 @@
+Fix an empty recommendation tab when subscribed-channels-only filtering is enabled.
+Exclude cached videos from channels that are no longer subscribed.
+Clean channel video cache more reliably when unsubscribing.

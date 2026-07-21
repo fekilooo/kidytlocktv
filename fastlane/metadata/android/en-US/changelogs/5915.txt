@@ -1,0 +1,1 @@
+Fix live video playback regression after auto-play next changes by restoring live-stream detection and live fallback.

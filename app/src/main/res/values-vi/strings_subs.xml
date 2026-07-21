@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">Giới thiệu</string>
+    <string name="failed_to_import_subscriptions">Không thể nhập đăng ký YouTube của bạn.</string>
+    <string name="import_subscriptions_parse_error">Không thể xử lý tệp bạn tải lên: %s.</string>
+    <string name="no_new_channels_found">Không thể tìm thấy kênh YouTube nào mà bạn chưa đăng ký.</string>
+    <string name="no_channels_found">Không tìm thấy kênh YouTube nào trong tệp bạn tải lên.</string>
+    <string name="select_none">Không chọn gì</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="select_sub_file">Chọn tệp đăng ký</string>
+    <string name="subscriptions_to_channels_imported">Đã nhập %d kênh</string>
+    <string name="unsubscribe_from_all_current_sibbed_channels">Huỷ đăng ký tất cả các kênh hiện tại đã đăng ký của bạn</string>
+    <string name="import_subscriptions_description">Bỏ chọn mọi thứ trên https://takeout.google.com ngoại trừ \"YouTube và YouTube Music\" và nhấp vào \"Bao gồm tất cả dữ liệu YouTube\" để chỉ nhận đăng ký. Nhấp vào \"Tiếp theo\" và sau đó \"Tạo xuất\". Bấm vào để nhận e-mail có liên kết tải xuống. Tải xuống tập tin từ ứng dụng khách e-mail của bạn. Chọn tệp ZIP này hoặc giải nén nó và chọn subscribes.csv hoặc subscribes.json có trong (trong /Takeout/YouTube và YouTube Music/subscriptions/) bằng cách sử dụng \"Chọn tệp đăng ký\" bên dưới.</string>
+    <string name="import_subscriptions">Nhập đăng ký</string>
+    <string name="error_unable_to_subscribe">Không thể (huỷ) đăng ký kênh (id=%s)</string>
+    <string name="error_check_if_user_has_subbed">Không thể kiểm tra xem bạn đã đăng ký kênh hay chưa (id=%s)</string>
+    <string name="error_get_subbed_channels">Không thể lấy các kênh đã đăng ký.</string>
+    <string name="channel_unsubscribed">Đã huỷ đăng ký kênh</string>
+    <string name="unsubscribed">Đã huỷ đăng ký</string>
+    <string name="channel_subscribe_failed">Không thể đăng ký kênh</string>
+    <string name="channel_already_subscribed">Đã đăng ký rồi</string>
+    <string name="channel_subscribed">Đã đăng ký kênh</string>
+    <string name="subscribed">Đã đăng ký</string>
+    <string name="total_subscribers">%,d người đăng ký</string>
+    <string name="unsubscribe">Huỷ đăng ký</string>
+    <string name="subscribe">Đăng ký</string>
+    <string name="subscriptions">Đăng ký</string>
+    <string name="status_not_exists">[Đã xóa]</string>
+    <string name="status_account_terminated">[Bị vô hiệu hóa]</string>
+</resources>

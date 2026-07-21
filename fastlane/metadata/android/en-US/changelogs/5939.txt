@@ -1,0 +1,1 @@
+Switch to a selected recommendation immediately without resolving the same video twice.

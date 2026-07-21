@@ -1,0 +1,4 @@
+Add editable OPML subscription-only backup and restore.
+Add cloud subscription list URL and cloud import.
+Support merge and complete replacement import modes.
+Keep full SkyTube database backups unchanged.

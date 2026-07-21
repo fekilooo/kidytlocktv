@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:drawer="http://schemas.android.com/apk/res-auto">
+
+	<com.google.android.exoplayer2.ui.AspectRatioFrameLayout android:id="@id/exo_content_frame"
+	                                                         android:layout_width="match_parent"
+	                                                         android:layout_height="match_parent"
+	                                                         android:layout_gravity="center">
+
+		<!-- Video surface will be inserted as the first child of the content frame. -->
+
+		<View android:id="@id/exo_shutter"
+		      android:layout_width="match_parent"
+		      android:layout_height="match_parent"
+		      android:background="@android:color/black"/>
+
+		<ImageView android:id="@id/exo_artwork"
+		           android:layout_width="match_parent"
+		           android:layout_height="match_parent"
+		           android:scaleType="fitXY"/>
+
+		<com.google.android.exoplayer2.ui.SubtitleView android:id="@id/exo_subtitles"
+		                                               android:layout_width="match_parent"
+		                                               android:layout_height="match_parent"/>
+
+	</com.google.android.exoplayer2.ui.AspectRatioFrameLayout>
+
+	<FrameLayout android:id="@id/exo_overlay"
+	             android:layout_width="match_parent"
+	             android:layout_height="match_parent">
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/controlOverlay"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<TextView
+				android:id="@+id/playbackSpeed"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="70dp"
+				android:layout_marginEnd="32dp"
+				android:layout_marginRight="32dp"
+				android:background="#000000"
+				android:clickable="true"
+				android:focusable="true"
+				android:foreground="@drawable/tv_control_focus"
+				android:paddingStart="10dp"
+				android:paddingTop="6dp"
+				android:paddingEnd="10dp"
+				android:paddingBottom="6dp"
+				android:text="1.0x"
+				android:textColor="@android:color/white"
+				android:textSize="20sp"
+				drawer:layout_constraintEnd_toEndOf="parent"
+				drawer:layout_constraintTop_toTopOf="parent"
+				tools:text="1.0x" />
+
+			<LinearLayout
+				android:id="@+id/tvEpisodesPanel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="8dp"
+				android:background="#F2111111"
+				android:orientation="vertical"
+				android:paddingStart="24dp"
+				android:paddingTop="12dp"
+				android:paddingEnd="24dp"
+				android:paddingBottom="16dp"
+				android:visibility="gone"
+				drawer:layout_constraintBottom_toTopOf="@id/tvRecommendationsPanel"
+				drawer:layout_constraintEnd_toEndOf="parent"
+				drawer:layout_constraintStart_toStartOf="parent"
+				drawer:layout_goneMarginBottom="120dp">
+
+				<TextView
+					android:id="@+id/tvEpisodesTitle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingBottom="8dp"
+					android:text="@string/player_episodes"
+					android:textColor="@android:color/white"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<HorizontalScrollView
+					android:id="@+id/tvEpisodesScroll"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:clipToPadding="false"
+					android:fillViewport="false"
+					android:scrollbars="none">
+
+					<LinearLayout
+						android:id="@+id/tvEpisodesList"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" />
+				</HorizontalScrollView>
+			</LinearLayout>
+
+			<LinearLayout
+				android:id="@+id/tvRecommendationsPanel"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="120dp"
+				android:background="#E6111111"
+				android:orientation="vertical"
+				android:paddingStart="24dp"
+				android:paddingTop="12dp"
+				android:paddingEnd="24dp"
+				android:paddingBottom="16dp"
+				android:visibility="gone"
+				drawer:layout_constraintBottom_toBottomOf="parent"
+				drawer:layout_constraintEnd_toEndOf="parent"
+				drawer:layout_constraintStart_toStartOf="parent">
+
+				<TextView
+					android:id="@+id/tvRecommendationsTitle"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:paddingBottom="8dp"
+					android:text="@string/player_recommendations"
+					android:textColor="@android:color/white"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<HorizontalScrollView
+					android:id="@+id/tvRecommendationsScroll"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:clipToPadding="false"
+					android:fillViewport="false"
+					android:scrollbars="none">
+
+					<LinearLayout
+						android:id="@+id/tvRecommendationsList"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal" />
+				</HorizontalScrollView>
+			</LinearLayout>
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+	</FrameLayout>
+
+	<View android:id="@id/exo_controller_placeholder"
+	      android:layout_width="match_parent"
+	      android:layout_height="match_parent"/>
+
+</merge>

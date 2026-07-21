@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_channel">Ieškoti kanalų</string>
+    <string name="no">Ne</string>
+    <string name="yes">Taip</string>
+    <string name="loading">Įkeliama…</string>
+    <string name="close">Uždaryti</string>
+    <string name="recaptcha_challenge_requested">„YouTube“ mano, kad esate robotas, todėl pirmiausia turite išspręsti „reCAPTCHA“.</string>
+    <string name="could_not_get_playlists">Nepavyko gauti %s grojaraščių.</string>
+    <string name="playlists">Grojaraščiai</string>
+    <string name="num_videos">%d vaizdo įrašai</string>
+    <string name="videos">Vaizdo įrašai</string>
+    <string name="video">Vaizdo įrašas</string>
+    <string name="trending_in">Tendencijos (%s)</string>
+    <string name="most_popular">Populiariausi</string>
+    <string name="featured">Siūloma</string>
+    <string name="LIVE">Tiesiogiai</string>
+    <string name="launch_offical_player_error">Nepavyko paleisti oficialaus „YouTube“ grotuvo. Įsitikinkite, kad jis įdiegtas.</string>
+    <string name="search_videos">Ieškoti vaizdo įrašų</string>
+    <string name="ok">Gerai</string>
+    <string name="error">Klaida</string>
+    <string name="views">%,d peržiūrų</string>
+    <string name="could_not_get_channel_detailed">Nepavyko atsisiųsti kanalo informacijos: %s.</string>
+    <string name="could_not_get_channel">Nepavyko atsisiųsti kanalo informacijos.</string>
+    <string name="could_not_get_videos">Nepavyko gauti %s vaizdo įrašų.</string>
+    <string name="could_not_get_sponsorblock">Nepavyko gauti SponsorBlock informacijos: %s.</string>
+    <string name="cleaner_confirm">Išvalyti</string>
+    <string name="cleaner_watched_bookmarks">Išvalyti peržiūrėtas žymas</string>
+    <string name="video_comments_are_disabled">Išjungti vaizdo įrašų komentarai</string>
+    <string name="cleaner">Peržiūrėtų vaizdo įrašų valymas</string>
+    <string name="cleaner_explanation">Išvalyti žymas / atsisiųstus video įrašus. Naudoti šiuos filtrus:</string>
+    <string name="cleaner_watched_downloads">Išvalyti peržiūrėtus video įrašus</string>
+    <string name="cleaner_toast_finish">Pašalinti %1$s vaizdo įrašas(ai) iš žymų ir atlaisvinta %2$s MB vietos</string>
+</resources>

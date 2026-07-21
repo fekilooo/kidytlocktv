@@ -1,0 +1,1 @@
+Restore TV remote focus after leaving SABR playback and prevent a stale video-grid lock from blocking subscription-list navigation.

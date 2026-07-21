@@ -1,0 +1,2 @@
+Keep the Safari request identity while loading HLS manifests and media segments.
+Use high-resolution HLS per video and quickly fall back to the stable Android stream on failure.

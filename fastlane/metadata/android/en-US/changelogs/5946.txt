@@ -1,0 +1,1 @@
+Restore stable direct YouTube streams while retaining HLS and high-resolution TV playback compatibility.

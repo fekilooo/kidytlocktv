@@ -1,0 +1,1 @@
+Add Safari HLS high-resolution playback while keeping stable Android combined streams as fallback.

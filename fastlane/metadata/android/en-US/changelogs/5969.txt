@@ -1,0 +1,1 @@
+Fix the isolated SABR fallback by using PipePipe n-parameter decoding and a clean MWEB metadata context. Normal videos continue to use the legacy player unchanged.

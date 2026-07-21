@@ -1,0 +1,1 @@
+Preserve YouTube protobuf message implementations required by multi-audio-track videos.

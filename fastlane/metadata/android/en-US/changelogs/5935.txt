@@ -1,0 +1,1 @@
+Remove the redundant subscription sidebar search field on TV layouts.

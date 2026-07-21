@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">家長模式</string>
+	<string name="title">TVBOX 家長模式</string>
+	<string name="subtitle">選擇要從桌面與應用程式列表隱藏的 APP</string>
+	<string name="apply">套用隱藏設定</string>
+	<string name="restore_all">全部恢復</string>
+	<string name="change_pin">變更 PIN</string>
+	<string name="loading">正在讀取已安裝 APP…</string>
+	<string name="root_ready">Root 權限正常</string>
+	<string name="root_missing">無法取得 Root 權限</string>
+	<string name="pin_title">輸入家長 PIN</string>
+	<string name="pin_default_hint">預設 PIN：0000</string>
+	<string name="pin_wrong">PIN 不正確</string>
+	<string name="pin_new">輸入 4–8 位數字新 PIN</string>
+	<string name="pin_invalid">PIN 必須是 4–8 位數字</string>
+	<string name="cancel">取消</string>
+	<string name="confirm">確定</string>
+	<string name="applied">已更新 APP 顯示狀態</string>
+	<string name="restored">已恢復隱藏的 APP</string>
+	<string name="protected_app">系統保護項目</string>
+	<string name="hidden">已隱藏</string>
+	<string name="visible">顯示中</string>
+	<string name="no_apps">找不到可啟動的 APP</string>
+	<string name="applying">正在套用變更…</string>
+	<string name="operation_failed">部分 APP 無法更新</string>
+	<string name="pin_changed">家長 PIN 已變更</string>
+	<string name="restore_title">恢復全部 APP？</string>
+	<string name="restore_message">由家長模式隱藏的所有 APP 都會重新顯示。</string>
+	<string name="root_detail">這台 TVBOX 必須提供 Root 權限才能隱藏其他 APP。</string>
+</resources>

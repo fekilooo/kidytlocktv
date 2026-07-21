@@ -1,0 +1,1 @@
+Retain home adapters, scroll position, focus, and thumbnails across back-stack navigation without disabling manual refresh or explicit trending-tab reshuffling.

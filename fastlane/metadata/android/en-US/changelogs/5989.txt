@@ -1,0 +1,5 @@
+Improve Bilibili TV playback controls and remote focus navigation.
+
+- Keep play/pause icons synchronized while buffering.
+- Avoid rebuilding episode and recommendation cards on every pause.
+- Allow Up from the paused play control to enter recommendations, then episodes.

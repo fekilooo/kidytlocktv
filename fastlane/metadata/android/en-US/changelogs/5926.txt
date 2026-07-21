@@ -1,0 +1,1 @@
+Update to the latest TeamNewPipe extractor and prefer token-safe HLS playback with a stable Android stream fallback.

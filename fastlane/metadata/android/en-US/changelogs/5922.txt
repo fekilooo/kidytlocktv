@@ -1,0 +1,1 @@
+Fix opening channel playlist cards with a TV remote OK button.

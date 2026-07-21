@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="thumbnail">Vorschaubild</string>
+    <string name="view_thumbnail">Vorschaubild anzeigen</string>
+    <string name="thumbnail_downloaded">Heruntergeladen.</string>
+    <string name="thumbnail_download_error">Konnte das Vorschaubild nicht herunterladen.</string>
+</resources>

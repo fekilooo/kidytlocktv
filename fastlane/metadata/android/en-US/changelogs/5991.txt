@@ -1,0 +1,5 @@
+Fix the remaining Home grid focus issue after returning from a channel.
+
+- Route Down through the visible TV grid even when ViewPager fragment cache is rebuilding.
+- Preserve subscription list Up/Down and Right navigation.
+- Include the Bilibili playback UI and paused-panel focus improvements.

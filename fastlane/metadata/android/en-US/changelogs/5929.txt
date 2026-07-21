@@ -1,0 +1,4 @@
+Add YouTube related-video autoplay with an 8-second TV countdown.
+Show a remote-friendly recommendation row when paused or playback ends.
+Apply VideoBlocker rules and prefer videos not already watched.
+Mark regular videos watched after two minutes of playback.

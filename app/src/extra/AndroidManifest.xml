@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools">
+
+	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+	<!-- Android Pie now requires this permission to run a foreground service. Chromecast support uses this. See https://developer.android.com/guide/components/services#Foreground -->
+	<uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- [Optional]  Only used by SkyTube Extra flavor to update the app -->
+
+	<!-- for AndroidTV compatibility -->
+	<uses-feature android:name="android.software.leanback"
+		android:required="false" />
+	<uses-feature
+		android:name="android.hardware.touchscreen"
+		android:required="false" />
+
+	<application
+		android:banner="@mipmap/ic_launcher"
+		>
+		<meta-data
+				android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+				android:value="free.rm.skytube.gui.businessobjects.CastOptionsProvider" />
+		<activity
+			android:name=".gui.activities.MainActivity"
+			android:launchMode="singleTask"
+			android:theme="@style/NoActionBarActivityTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+				<category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+			</intent-filter>
+
+		</activity>
+		<activity
+			android:name=".gui.activities.YouTubePlayerActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:theme="@style/VideoPlayerActivityTheme"
+			tools:node="replace">
+
+		</activity>
+		<activity android:name=".gui.activities.NotificationClickActivity" />
+
+
+		<activity android:name=".gui.activities.RouterActivity"
+			android:theme="@style/TransparentActivity">
+			<!-- Youtube filter -->
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+
+				<data android:scheme="http"/>
+				<data android:scheme="https"/>
+				<data android:host="youtube.com"/>
+				<data android:host="m.youtube.com"/>
+				<data android:host="www.youtube.com"/>
+				<data android:host="music.youtube.com" />
+				<!-- video prefix -->
+				<data android:pathPrefix="/v/"/>
+				<data android:pathPrefix="/embed/"/>
+				<data android:pathPrefix="/watch"/>
+				<data android:pathPrefix="/shorts/" />
+				<data android:pathPrefix="/live/" />
+				<data android:pathPrefix="/podcasts/" />
+				<data android:pathPrefix="/attribution_link"/>
+				<!-- channel prefix -->
+				<data android:pathPrefix="/channel/"/>
+				<data android:pathPrefix="/user/"/>
+				<data android:pathPrefix="/c/"/>
+				<data android:pathPrefix="/@"/>
+				<!-- playlist prefix -->
+				<data android:pathPrefix="/playlist"/>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+
+				<data android:scheme="http"/>
+				<data android:scheme="https"/>
+				<data android:host="youtu.be"/>
+				<data android:pathPrefix="/"/>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+
+				<data android:scheme="http"/>
+				<data android:scheme="https"/>
+				<data android:host="www.youtube-nocookie.com"/>
+				<data android:pathPrefix="/embed/"/>
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+
+				<data android:scheme="vnd.youtube"/>
+				<data android:scheme="vnd.youtube.launch"/>
+			</intent-filter>
+
+			<!-- Invidious filter -->
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW"/>
+				<action android:name="android.media.action.MEDIA_PLAY_FROM_SEARCH"/>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+
+				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
+
+				<data android:scheme="http"/>
+				<data android:scheme="https"/>
+				<data android:host="invidio.us"/>
+				<!-- video prefix -->
+				<data android:pathPrefix="/embed/"/>
+				<data android:pathPrefix="/watch"/>
+				<!-- channel prefix -->
+				<data android:pathPrefix="/channel/"/>
+				<data android:pathPrefix="/user/"/>
+				<!-- playlist prefix -->
+				<data android:pathPrefix="/playlist"/>
+			</intent-filter>
+
+		</activity>
+
+	</application>
+
+</manifest>

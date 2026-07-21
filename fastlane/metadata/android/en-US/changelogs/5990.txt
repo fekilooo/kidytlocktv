@@ -1,0 +1,5 @@
+Fix TV remote focus after returning from a channel.
+
+- Keep subscription Up/Down navigation inside the subscription list.
+- Move Right to the actually visible video grid even after ViewPager recreation.
+- Include the Bilibili playback control and paused-panel focus improvements from TV89.

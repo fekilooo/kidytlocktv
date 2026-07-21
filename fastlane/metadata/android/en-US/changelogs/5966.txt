@@ -1,0 +1,2 @@
+Load Safari HLS manifests and segments with the NewPipe-style YouTube POST request shape.
+Use HLS as the continuous high-resolution path before iOS progressive and stable fallbacks.

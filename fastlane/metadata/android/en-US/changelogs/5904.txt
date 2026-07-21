@@ -1,0 +1,1 @@
+TV4: fixed dialog action buttons for D-pad, improved player toolbar/speed focus, added in-app voice search button, and fallback handling for live-stream extraction failures.

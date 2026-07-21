@@ -1,0 +1,2 @@
+Use IPv4 for Android 10 MWEB media URLs that are signed to the device IPv4 address.
+Reduce failed high-resolution retries so the stable fallback starts within seconds.

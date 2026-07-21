@@ -1,0 +1,2 @@
+Keep Android 10 iOS high-resolution playback on one accepted range connection instead of reopening it every 8 MiB.
+Continue to fall back to the stable combined stream on startup or transport failure.

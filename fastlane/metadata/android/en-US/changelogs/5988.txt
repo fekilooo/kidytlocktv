@@ -1,0 +1,1 @@
+Bilibili playback now uses an isolated Media3 backend while retaining SkyTube's TV controls.

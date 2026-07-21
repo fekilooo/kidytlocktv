@@ -1,0 +1,2 @@
+Prefetch a fresh iOS media URL for each Android 10 high-resolution range segment.
+Keep playback continuous across one-request URLs while preserving the stable fallback.

@@ -1,0 +1,1 @@
+Restore the last remembered video-card focus after returning from search or another back-stack page.

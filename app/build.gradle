@@ -1,0 +1,255 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: "de.mannodermaus.android-junit5"
+
+android {
+    compileSdkVersion 36
+    namespace 'free.rm.skytube'
+
+    defaultConfig {
+        applicationId "free.rm.skytube"
+        minSdkVersion 29
+        //noinspection ExpiredTargetSdkVersion
+        targetSdkVersion 29
+
+        versionName "2.999-tv91"
+        versionCode 5991
+
+        // Third party devs:  pls be ethical and change the below keys
+        buildConfigField 'String', 'YOUTUBE_API_KEYS_DEBUG', '""'
+        buildConfigField 'String[]', 'YOUTUBE_API_KEYS', '{}'
+        buildConfigField 'String', 'SKYTUBE_WEBSITE', '"https://github.com/SkyTubeTeam/SkyTube"'
+        buildConfigField 'String', 'SKYTUBE_WEBSITE_CREDITS', '"https://raw.githubusercontent.com/SkyTubeTeam/SkyTube/master/contributors.txt"'
+        buildConfigField 'String', 'SKYTUBE_ISSUES_URL', '"https://github.com/SkyTubeTeam/SkyTube/issues/new/choose"'
+        buildConfigField 'String', 'SKYTUBE_UPDATES_URL', '"https://api.github.com/repos/SkyTubeTeam/SkyTube/releases/latest"'
+        buildConfigField 'long', 'BUILD_TIME', String.valueOf(System.currentTimeMillis()) + 'L'
+        vectorDrawables.useSupportLibrary true
+        multiDexEnabled true    // as we have over 65536 lines of code...
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "CHROMECAST_APP_ID", "\"39E8D587\""
+        }
+        debug {
+            minifyEnabled false
+            buildConfigField "String", "CHROMECAST_APP_ID", "\"29A66E17\"" // dev
+        }
+        snapshot {
+            initWith debug
+            applicationIdSuffix ".snapshot"
+            resValue "string", "app_name", "SkyTube Snapshot"
+        }
+    }
+    flavorDimensions "skytube"
+    productFlavors {
+        // 100% Open-Source Edition
+        oss {
+            applicationIdSuffix ".tv"
+            resValue "string", "app_name", "YouTube"
+            resValue "string", "app_flavor", "OSS"
+            dimension "skytube"
+            buildConfigField 'String[]', 'YOUTUBE_API_KEYS', '{}'
+        }
+        // 99% Open-source edition:  uses the YouTube Player Jar [i.e. proprietary module - optional usage]
+        extra {
+            applicationIdSuffix ".extra"
+            resValue "string", "app_name", "SkyTube Extra"
+            resValue "string", "app_flavor", "Extra"
+            dimension "skytube"
+        }
+    }
+    // Generate APK filenames as follows:  <App Name>-<Flavor><Version>
+    applicationVariants.all { variant ->
+        outputs.all { output ->
+            outputFileName = "${parent.name}-${productFlavors[0].name.capitalize()}-${versionName}.apk"
+        }
+    }
+    // Ignore missing translations
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+
+        coreLibraryDesugaringEnabled true
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    packagingOptions {
+        jniLibs {
+            excludes += ['META-INF/*']
+        }
+        resources {
+            excludes += ['META-INF/*']
+        }
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+    androidResources {
+        generateLocaleConfig true
+    }
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+dependencies {
+/** Desugaring **/
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.2'
+
+/** Kotlin **/
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion"
+
+/** AndroidX **/
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'androidx.core:core:1.9.0'
+    implementation 'androidx.media:media:1.7.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1' // as we have over 65536 methods...
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'com.google.android.material:material:1.12.0'
+
+/** ExoPlayer **/
+    // Application level media player
+    def exoplayerVersion = 'r2.9.6'
+    implementation "com.github.google.ExoPlayer:exoplayer-core:$exoplayerVersion"
+    implementation "com.github.google.ExoPlayer:exoplayer-ui:$exoplayerVersion"
+    implementation "com.github.google.ExoPlayer:exoplayer-hls:$exoplayerVersion"
+    implementation "com.github.google.ExoPlayer:exoplayer-dash:$exoplayerVersion"
+
+/** Isolated SABR player **/
+    def media3Version = '1.10.1'
+    implementation "androidx.media3:media3-common:$media3Version"
+    implementation "androidx.media3:media3-datasource:$media3Version"
+    implementation "androidx.media3:media3-exoplayer:$media3Version"
+    implementation "androidx.media3:media3-exoplayer-dash:$media3Version"
+    implementation 'androidx.webkit:webkit:1.9.0'
+
+/** Third-party **/
+
+/**** Frontend (UI-related) ****/
+
+    // Old SlidingDrawer widget component but improved
+    implementation 'com.github.SkyTubeTeam:SlidingDrawer:1.7.1'
+
+    // Image loading and caching library
+    def glideVersion = '4.15.0'
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glideVersion"
+
+    // Custom dialogs
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+
+    // File / folder chooser
+    implementation 'com.github.hedzr:android-file-chooser:v1.2.0-final'
+
+    // Add a badge to an action item
+    implementation 'com.mikepenz:actionitembadge:4.0.0@aar'
+    // Use any icon font or vector as drawable
+    implementation 'com.mikepenz:iconics-core:4.0.2@aar'
+    // Material Design Iconic Font
+    implementation 'com.mikepenz:material-design-iconic-typeface:2.2.0.6-kotlin@aar'
+
+
+/**** Backend logic ****/
+
+    // Social style date / time formatting for Java
+    implementation 'org.ocpsoft.prettytime:prettytime:5.0.1.Final'
+
+    // Convert Java objects into JSON and back
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation "com.github.TeamNewPipe:nanojson:e9d656ddb49a412a5a0a5d5ef20ca7ef09549996"
+
+    // YouTube modules
+    implementation 'com.github.SkyTubeTeam.google-http-java-client:google-http-client-android:e726c5718d'
+
+    implementation('com.google.apis:google-api-services-youtube:v3-rev20200423-1.30.9') {
+        exclude group: 'com.google.http-client', module: 'google-http-client'
+        exclude group: 'com.google.http-client', module: 'google-http-client-jackson2'
+    }
+
+    // implementation 'com.github.SkyTubeTeam.NewPipeExtractor:NewPipeExtractor:0c8e500efd'
+    implementation project(':patchedExtractor')
+
+    def skytubeComponents = '0.0.10'
+    implementation ("com.github.SkyTubeTeam.components:okhttp-client:$skytubeComponents") {
+        exclude group: 'com.github.SkyTubeTeam.NewPipeExtractor', module: 'extractor'
+    }
+    implementation "com.github.SkyTubeTeam.components:android-utils:$skytubeComponents"
+
+    // Java HTML parser
+    implementation "org.jsoup:jsoup:1.22.1"
+
+    // Language Detection Library for Java
+    implementation('com.optimaize.languagedetector:language-detector:0.6') {
+        exclude group: 'com.google.guava', module: 'guava'
+        exclude group: 'com.intellij', module: 'annotations'
+    }
+
+    // Reactive extensions for Java VM
+    implementation 'com.github.SkyTubeTeam:RxAndroid:3.0.1.SkyTubeTeam'
+    // RxJava 3.1 needs API 21
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.13'
+
+
+/** Debug **/
+    // debugImplementation because LeakCanary should only run in debug builds
+    // Memory leak detection
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
+
+/** Flavor **/
+    // Proprietary modules
+    // Official YouTube Android Player API
+    extraImplementation files('libs/YouTubeAndroidPlayerApi.jar')
+    extraImplementation 'com.google.android.gms:play-services-cast-framework:20.0.0'
+    extraImplementation 'com.sothree.slidinguppanel:library:3.4.0'
+    extraImplementation 'com.github.rahatarmanahmed:circularprogressview:2.5.0'
+
+/** Testing **/
+    // Required for local unit tests (JUnit 5 framework)
+    def junitVersion = '5.14.1'
+    def mockitoVersion = '5.21.0'
+    testImplementation(platform("org.junit:junit-bom:$junitVersion"))
+    testImplementation("org.junit.jupiter:junit-jupiter-api")
+    testImplementation("org.junit.jupiter:junit-jupiter-params")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+
+    testImplementation("org.mockito:mockito-core:$mockitoVersion")
+    testImplementation("org.mockito:mockito-junit-jupiter:$mockitoVersion")
+    
+    // XML Pull Parser for unit tests (needed for OPML parsing)
+    testImplementation "xpp3:xpp3:1.1.4c"
+}
+
+afterEvaluate {
+
+    task fastlaneCheck {
+        group "Verification"
+        description 'Tasks which validates the fastlane requirements'
+        doLast {
+            var buildNumber = android.defaultConfig.versionCode
+            var path = file("./../fastlane/metadata/android/en-US/changelogs/${buildNumber}.txt")
+            assert path.exists()
+            assert path.length() <= 500
+            println("Fastlane check successful for $buildNumber - file exists and smaller than 500 bytes")
+        }
+    }
+
+    // Find all tasks whose names end with 'assemble' and make them depend on fastlaneCheck
+    tasks.matching { it.name.toLowerCase().startsWith('assemble') }.all { Task task ->
+        task.finalizedBy(fastlaneCheck)
+    }
+
+}
+

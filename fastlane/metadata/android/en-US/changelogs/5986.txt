@@ -1,0 +1,2 @@
+Bilibili multi-part videos now show episodes and recommendations together when paused or opened with the TV remote Up key.
+Improved DPAD navigation between episode, recommendation, and playback-control rows.

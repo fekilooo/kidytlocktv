@@ -1,0 +1,1 @@
+Use finite byte-range requests for iOS high-resolution streams on Android 10 to avoid legacy ExoPlayer 403 errors.

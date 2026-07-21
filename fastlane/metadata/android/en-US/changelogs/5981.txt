@@ -1,0 +1,1 @@
+Preserve the cached grid's exact scroll position when its remembered video card is already visible.

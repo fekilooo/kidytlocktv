@@ -1,0 +1,2 @@
+Use Android-compatible interpreted JavaScript to decode MWEB stream URLs.
+Retain the HLS, high-resolution, and stable combined-stream fallback chain.

@@ -1,0 +1,58 @@
+plugins {
+    id 'java-library'
+}
+
+def upstreamExtractorJars = files(
+        'libs/NewPipeExtractor-7edf1c5f-tv57.jar')
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+configurations {
+    upstreamExtractor
+
+    // Android Gradle Plugin otherwise prefers this Java project's secondary "classes"
+    // directories, which only contain our patched classes and omit the merged upstream JAR.
+    // Publish the fat JAR as the only API/runtime artifact so the complete extractor is dexed.
+    apiElements {
+        outgoing.variants.removeAll { it.name == 'classes' }
+    }
+    runtimeElements {
+        outgoing.variants.removeAll { it.name == 'classes' }
+    }
+}
+
+dependencies {
+    upstreamExtractor upstreamExtractorJars
+    compileOnly upstreamExtractorJars
+
+    api 'com.github.TeamNewPipe:nanojson:e9d656ddb49a412a5a0a5d5ef20ca7ef09549996'
+    api 'org.jsoup:jsoup:1.22.2'
+    api 'com.google.code.findbugs:jsr305:3.0.2'
+    api 'com.google.protobuf:protobuf-javalite:4.35.0'
+    api 'org.brotli:dec:0.1.2'
+    api 'org.mozilla:rhino:1.7.15'
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+
+    from {
+        configurations.upstreamExtractor.collect { zipTree(it) }
+    } {
+        exclude 'META-INF/**'
+    }
+}

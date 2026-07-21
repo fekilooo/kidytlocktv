@@ -1,0 +1,4 @@
+Keep a compact subscription sidebar permanently visible on the main screen.
+Use a stable two-column TV grid with fixed 16:9 thumbnails.
+Fix recycled video cards losing their normal dimensions and visibility state.
+Marquee long channel names only while their sidebar item is focused.

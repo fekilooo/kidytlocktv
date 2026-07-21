@@ -1,0 +1,2 @@
+Retry the optional Safari player response when YouTube omits the HLS manifest intermittently.
+Keep ordinary videos on the stable Android combined stream and retain fast HLS fallback.

@@ -1,0 +1,1 @@
+Keep the home video grid and thumbnail cache intact after playback, and update only the played card's watch progress on return.

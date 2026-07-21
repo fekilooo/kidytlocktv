@@ -1,0 +1,1 @@
+Resume watched videos automatically without showing a confirmation dialog.

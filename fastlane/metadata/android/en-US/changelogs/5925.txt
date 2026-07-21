@@ -1,0 +1,1 @@
+Use the matching iOS request identity when loading iOS YouTube media URLs to prevent intermittent HTTP 403 playback failures.

@@ -1,0 +1,2 @@
+Restore the verified iOS finite-range high-resolution path on Android 10.
+Fall back to the stable combined stream when high-resolution playback does not become ready within 12 seconds.

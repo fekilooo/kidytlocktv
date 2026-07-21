@@ -1,0 +1,3 @@
+Bilibili episode and recommendation rows now appear together on pause or TV remote Up.
+Any DPAD navigation cancels the autoplay countdown before focus moves, preventing an unwanted video switch while choosing.
+Home tab changes now transfer focus from an offscreen old grid to the selected tab and its current video list.

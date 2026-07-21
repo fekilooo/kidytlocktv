@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="could_not_get_videos">Impossible de charger les vidéos de %s.</string>
+    <string name="views">%,d vues</string>
+    <string name="error">Erreur</string>
+    <string name="ok">OK</string>
+    <string name="search_videos">Rechercher des vidéos</string>
+    <string name="launch_offical_player_error">Impossible de lancer le lecteur YouTube officiel. Assurez-vous qu\'il est installé.</string>
+    <string name="LIVE">En direct</string>
+    <string name="featured">Tendances</string>
+    <string name="most_popular">Populaires</string>
+    <string name="video">Vidéo</string>
+    <string name="videos">Vidéos</string>
+    <string name="num_videos">%d vidéos</string>
+    <string name="playlists">Listes de lecture</string>
+    <string name="could_not_get_playlists">Impossible d\'obtenir les listes de lecture %s.</string>
+    <string name="loading">Chargement…</string>
+    <string name="could_not_get_channel">Impossible de télécharger les informations sur la chaîne.</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="search_channel">Chercher une chaîne</string>
+    <string name="close">Fermer</string>
+    <string name="could_not_get_channel_detailed">Impossible de télécharger les infos de la chaîne : %s.</string>
+    <string name="trending_in">Tendances (%s)</string>
+    <string name="recaptcha_challenge_requested">YouTube croit que vous êtes un robot, vous devez donc d\'abord résoudre un reCAPTCHA.</string>
+    <string name="could_not_get_sponsorblock">Impossible de récupérer les informations SponsorBlock : %s.</string>
+    <string name="cleaner">Nettoyeur des vidéos vues</string>
+    <string name="cleaner_explanation">Nettoyez des vidéos en marque-page ou téléchargées. Utilisez les options de filtre suivantes :</string>
+    <string name="cleaner_confirm">Nettoyer</string>
+    <string name="cleaner_watched_downloads">Retirer les téléchargements regardés</string>
+    <string name="cleaner_watched_bookmarks">Retirer les marque-pages regardés</string>
+    <string name="video_comments_are_disabled">Commentaires vidéo désactivés</string>
+    <string name="cleaner_toast_finish">Nous avons supprimé %1$s vidéo(s) des marque-pages, et supprimé %2$s Mo des vidéos téléchargées.</string>
+    <string name="incorrect_pin">Code PIN incorrect</string>
+</resources>

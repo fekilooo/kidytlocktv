@@ -1,0 +1,1 @@
+Prefetch the focused recommendation so remote-control selection can start playback faster.

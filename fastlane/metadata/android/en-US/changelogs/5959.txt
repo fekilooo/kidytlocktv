@@ -1,0 +1,2 @@
+Retry Android 10 MWEB high-resolution media with multiple finite range request formats.
+Keep the stable combined stream as an immediate fallback when every high-resolution format is rejected.

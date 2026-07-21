@@ -1,0 +1,2 @@
+Fix auto-play next video mis-detecting normal videos as live streams.
+Resolve full video details before auto-playing the next channel video.

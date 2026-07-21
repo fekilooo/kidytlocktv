@@ -1,0 +1,1 @@
+Restore direct 720p-2160p streams for SABR-affected YouTube videos using the iOS extraction client.

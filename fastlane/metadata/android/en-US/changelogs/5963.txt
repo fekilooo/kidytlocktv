@@ -1,0 +1,2 @@
+Use NewPipe's open-ended POST range shape for the single Android 10 iOS high-resolution connection.
+Keep bounded alternatives and the stable-stream fallback when the server rejects that connection.

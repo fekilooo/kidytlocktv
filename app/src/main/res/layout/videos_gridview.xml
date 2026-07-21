@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+			 xmlns:android="http://schemas.android.com/apk/res/android"
+			 android:id="@+id/swipeRefreshLayout"
+			 android:layout_width="match_parent"
+			 android:layout_height="match_parent">
+
+	<free.rm.skytube.gui.businessobjects.views.TvGridRecyclerView
+		android:id="@+id/grid_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:clipChildren="false"
+		android:clipToPadding="false"
+		android:descendantFocusability="afterDescendants"
+		android:focusable="false"
+		android:padding="16dp"
+		android:scrollbars="vertical"
+		android:numColumns="@integer/video_grid_num_columns"
+		android:background="@color/grid_view_background"/>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

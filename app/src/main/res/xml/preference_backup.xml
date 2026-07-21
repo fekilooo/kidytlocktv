@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ SkyTube
+  ~ Copyright (C) 2017  Ramon Mifsud
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation (version 3 of the License).
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<Preference
+		app:key="@string/pref_key_backup_dbs"
+		app:title="@string/pref_title_backup_dbs"
+		app:summary="@string/pref_summary_backup_dbs"
+		app:iconSpaceReserved="false" />
+
+	<Preference
+		app:key="@string/pref_key_import_dbs"
+		app:title="@string/pref_title_import_dbs"
+		app:summary="@string/pref_summary_import_dbs"
+		app:iconSpaceReserved="false" />
+
+	<EditTextPreference
+		android:inputType="textUri"
+		app:key="@string/pref_key_cloud_backup_url"
+		app:title="@string/pref_title_cloud_backup_url"
+		app:summary="@string/pref_summary_cloud_backup_url"
+		app:dialogTitle="@string/pref_title_cloud_backup_url"
+		app:defaultValue="@string/pref_default_cloud_backup_url"
+		app:useSimpleSummaryProvider="true"
+		app:iconSpaceReserved="false" />
+
+	<Preference
+		app:key="@string/pref_key_import_cloud_dbs"
+		app:title="@string/pref_title_import_cloud_dbs"
+		app:summary="@string/pref_summary_import_cloud_dbs"
+		app:iconSpaceReserved="false" />
+
+	<Preference
+		app:key="@string/pref_key_import_subs"
+		app:title="@string/pref_title_import_subs"
+		app:summary="@string/pref_summary_import_subs"
+		app:iconSpaceReserved="false" />
+
+	<Preference
+		app:key="@string/pref_key_export_subs_opml"
+		app:title="@string/pref_title_export_subs_opml"
+		app:summary="@string/pref_summary_export_subs_opml"
+		app:iconSpaceReserved="false" />
+
+	<Preference
+		app:key="@string/pref_key_import_subs_opml"
+		app:title="@string/pref_title_import_subs_opml"
+		app:summary="@string/pref_summary_import_subs_opml"
+		app:iconSpaceReserved="false" />
+
+	<EditTextPreference
+		android:inputType="textUri"
+		app:key="@string/pref_key_cloud_subscriptions_url"
+		app:title="@string/pref_title_cloud_subscriptions_url"
+		app:summary="@string/pref_summary_cloud_subscriptions_url"
+		app:dialogTitle="@string/pref_title_cloud_subscriptions_url"
+		app:defaultValue="@string/pref_default_cloud_subscriptions_url"
+		app:useSimpleSummaryProvider="true"
+		app:iconSpaceReserved="false" />
+
+	<Preference
+		app:key="@string/pref_key_import_cloud_subscriptions"
+		app:title="@string/pref_title_import_cloud_subscriptions"
+		app:summary="@string/pref_summary_import_cloud_subscriptions"
+		app:iconSpaceReserved="false" />
+
+</PreferenceScreen>

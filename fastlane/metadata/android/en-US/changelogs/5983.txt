@@ -1,0 +1,1 @@
+Replace the home bookmarks tab with a hot feed sourced only from subscribed Bilibili channels.

@@ -1,0 +1,2 @@
+Reset the YouTube request number when switching to each freshly prefetched iOS media URL.
+This lets every new Android 10 high-resolution segment start its own valid media session.

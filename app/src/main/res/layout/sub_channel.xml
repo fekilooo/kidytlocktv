@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Subscription Channel
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:minHeight="48dp"
+			  android:paddingLeft="6dp"
+			  android:paddingRight="6dp"
+			  android:paddingTop="3dp"
+			  android:paddingBottom="3dp"
+			  android:clickable="true"
+			  android:focusable="true"
+			  android:gravity="center_vertical"
+			  android:orientation="horizontal"
+			  android:background="@drawable/sub_channel_background">
+
+	<!-- CHANNEL THUMBNAIL -->
+	<ImageView
+		android:id="@+id/sub_channel_thumbnail_image_view"
+		android:layout_width="36dp"
+		android:layout_height="36dp"
+		android:scaleType="centerCrop"
+		android:src="@drawable/channel_thumbnail_default" />
+
+	<!-- CHANNEL NAME -->
+	<TextView
+		android:id="@+id/sub_channel_name_text_view"
+		android:layout_width="0dp"
+		android:layout_weight="1"
+		android:ellipsize="marquee"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:paddingLeft="8dp"
+		android:paddingRight="4dp"
+		android:singleLine="true"
+		android:text="This is a very long Channel Name to show that we need to use the weight"
+		style="@style/SubsTextView"/>
+
+	<!-- NEW VIDEOS UPLOADED SINCE LAST VISIT ? -->
+	<ImageView
+		android:id="@+id/sub_channel_new_videos_notification"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/sub_new_video"/>
+
+</LinearLayout>

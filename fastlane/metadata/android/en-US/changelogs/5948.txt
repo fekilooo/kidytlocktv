@@ -1,0 +1,1 @@
+Prefer available HLS manifests even when a video exposes multiple audio tracks, with direct-stream fallback.

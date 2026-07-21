@@ -1,0 +1,1 @@
+Start a selected recommended video immediately even when the previous video was paused.

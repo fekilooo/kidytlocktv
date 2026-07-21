@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="could_not_get_videos">Не удалось загрузить %s видео.</string>
+    <string name="could_not_get_channel">Не удалось загрузить информацию о канале.</string>
+    <string name="views">%,d просмотров</string>
+    <string name="error">Ошибка</string>
+    <string name="ok">ОК</string>
+    <string name="search_videos">Поиск видео</string>
+    <string name="launch_offical_player_error">Не удалось запустить официальный проигрыватель YouTube. Убедитесь, что он установлен.</string>
+    <string name="LIVE">Прямой эфир</string>
+    <string name="featured">Избранные</string>
+    <string name="most_popular">Популярные</string>
+    <string name="video">Видео</string>
+    <string name="videos">Видео</string>
+    <string name="num_videos">%d видео</string>
+    <string name="playlists">Плейлисты</string>
+    <string name="could_not_get_playlists">Нет возможности получить %s плейлист.</string>
+    <string name="loading">Загрузка…</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="search_channel">Найти канал</string>
+    <string name="close">Закрыть</string>
+    <string name="could_not_get_channel_detailed">Не удалось загрузить информацию о канале: %s.</string>
+    <string name="recaptcha_challenge_requested">YouTube думает, что вы бот, поэтому вам сначала необходимо решить reCAPTCHA.</string>
+    <string name="trending_in">В тренде (%s)</string>
+    <string name="cleaner_explanation">Очистить видео в закладках/загрузках. Использовать следующие настройки фильтра:</string>
+    <string name="cleaner_confirm">Очистить</string>
+    <string name="cleaner_watched_downloads">Удалить просмотренные загрузки</string>
+    <string name="cleaner_watched_bookmarks">Удалить просмотренные закладки</string>
+    <string name="video_comments_are_disabled">Комментарии видео отключены</string>
+    <string name="could_not_get_sponsorblock">Не удалось получить информацию от SponsorBlock: %s.</string>
+    <string name="cleaner_toast_finish">Видео %1$s убрано из закладок, удалено %2$s MB скаченых файлов</string>
+    <string name="cleaner">Очиститель просмотренного видео</string>
+</resources>

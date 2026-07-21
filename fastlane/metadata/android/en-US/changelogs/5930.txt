@@ -1,0 +1,3 @@
+Supplement the player recommendation row to target at least 16 eligible videos.
+Keep unwatched videos first and use watched videos only when more items are needed.
+Move the recommendation row above playback controls to prevent UI overlap.

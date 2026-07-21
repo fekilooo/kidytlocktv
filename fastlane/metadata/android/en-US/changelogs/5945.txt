@@ -1,0 +1,2 @@
+Restore high-resolution YouTube streams exposed through Mobile Web adaptive formats.
+Prefer direct CDN video and audio URLs while retaining the existing compatibility fallback.

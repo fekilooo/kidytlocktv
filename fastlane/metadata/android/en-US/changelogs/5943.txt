@@ -1,0 +1,1 @@
+Use NewPipe-style progressive HTTP requests for visionOS YouTube media streams.

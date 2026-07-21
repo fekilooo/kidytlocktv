@@ -1,0 +1,4 @@
+TV remote focus navigation update:
+- Connects video grids, top tabs, and toolbar actions for D-pad navigation.
+- Makes custom dialog actions and list rows focusable with a visible focus ring.
+- Improves focus behavior in blocker and multi-select dialogs.
